@@ -1,0 +1,102 @@
+{
+  "id": "235e929d-155f-43cc-b961-bb008f60f136",
+  "name": "OrderPizzaIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "OrderPizzaIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "87a816de-1cdc-4dfc-872f-ac67c6cb1402",
+          "name": "size",
+          "required": true,
+          "dataType": "@PizzaSize",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza would you like?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dcdde9d8-6afd-4fb4-b73f-12fe5b5b92cd",
+          "name": "ingredients",
+          "required": true,
+          "dataType": "@PizzaIngredient",
+          "value": "$ingredients",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What ingredients would you like on your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "Any ingredients for your pizza?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7f8747cb-29a0-400f-a467-9746125badda",
+          "name": "crust",
+          "required": true,
+          "dataType": "@PizzaCrustStyle",
+          "value": "$crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of crust would you like? Regular or Thin?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks, you ordered a $size $crust crust pizza with $ingredients. Is that correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

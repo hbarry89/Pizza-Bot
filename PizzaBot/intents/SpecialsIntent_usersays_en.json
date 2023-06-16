@@ -1,0 +1,67 @@
+[
+  {
+    "id": "62ccd3df-92ce-4497-bae5-13a7f96e3435",
+    "data": [
+      {
+        "text": "deals",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03b342aa-59b1-4d88-bf7c-99b857fafc93",
+    "data": [
+      {
+        "text": "do you have a deal of the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2459146d-0bae-4c90-99d2-61718b6b2956",
+    "data": [
+      {
+        "text": "specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93358082-82e5-47c1-9f6c-680fe540315c",
+    "data": [
+      {
+        "text": "any pizza specials available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd886f3a-b7e2-4eec-9c37-58c13de42a0e",
+    "data": [
+      {
+        "text": "Do you have any pizza specials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

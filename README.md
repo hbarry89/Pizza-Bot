@@ -8,6 +8,8 @@
 
 - [Click here](https://hbarry89.github.io/Pizza-Bot/) for the live link.
 
+- Exported work from dialog flow in *PizzaBot* folder for reference.
+
 ## :wrench: Technologies Used
 
 - Dialogflow

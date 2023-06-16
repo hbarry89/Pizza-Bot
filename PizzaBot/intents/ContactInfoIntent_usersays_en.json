@@ -1,0 +1,57 @@
+[
+  {
+    "id": "f4928205-be2e-443d-940e-f25bf3e5914d",
+    "data": [
+      {
+        "text": "444-444-4444",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cd79271-2081-45b2-bf81-cb83464dcac3",
+    "data": [
+      {
+        "text": "John Smith",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01345aeb-a8f6-4181-a13b-a554b8ce262f",
+    "data": [
+      {
+        "text": "John",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "555-555-5555",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
