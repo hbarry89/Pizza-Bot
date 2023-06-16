@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(138, 156, 156)
+}
+
+a {
+    text-decoration: none;
+    color:bisque;
+}
+
+a:hover {
+    color: black;
+}
