@@ -10,6 +10,18 @@ Pizza Bot is a chatbot designed to simplify the process of ordering pizza. With 
 
 - For reference, the exported work from Dialogflow is available in the "PizzaBot" folder.
 
+### Preview
+
+<img width="432" alt="Screenshot 2023-07-27 at 3 15 04 PM" src="https://github.com/hbarry89/Pizza-Bot/assets/106551259/0fe99061-c059-4e1a-8d22-b142ce897424">
+
+---
+
+Flow Cart (using Figma's FigJam):
+
+<img width="1428" alt="Screenshot 2023-07-27 at 3 13 09 PM" src="https://github.com/hbarry89/Pizza-Bot/assets/106551259/fbbd67ac-7a0c-4db5-b156-be5fe84eb645">
+
+[Click here](https://www.figma.com/file/MubV1kyFvaWREeRnz2eH8B/Pizza-Bot?type=whiteboard&node-id=0%3A1&t=RlTgIMxItuZMKa73-1) to access the flowchart.
+
 ## :wrench: Technologies Used
 
 - Dialogflow
